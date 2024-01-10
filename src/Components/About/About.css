@@ -1,0 +1,32 @@
+/* About.css */
+.about-container {
+  background-color: #fff;
+  padding: 3rem;
+  text-align: center;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.about-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #03084b;
+  margin-bottom: 1rem;
+  padding-bottom: 3rem;
+  font-family: 'Poppins', sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add text shadow */
+}
+
+.about-description {
+  font-size: 1.2rem;
+  color: #fdfbfb;
+  margin: 1rem 0;
+ /* font-family: 'Raleway', sans-serif;*/
+  font-family: 'Cedarville Cursive', cursive;
+  line-height: 1.6; /* Increase line height for better readability */
+  text-align: center; /* Justify the text for a clean look */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6); /* Add a subtle shadow to the text */
+  padding: 3rem;
+  border-radius: 20px;
+  justify-content: center;
+  background: linear-gradient(135deg, #491fef, #ff33a7);
+}

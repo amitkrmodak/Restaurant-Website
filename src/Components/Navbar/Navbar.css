@@ -1,0 +1,53 @@
+/* Navbar.css */
+.navbar {
+  background: linear-gradient(135deg, #491fef, #ff33a7); /* Add your preferred gradient colors */
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+  padding: 0.5rem;
+  position: fixed; /* Make the Navbar fixed */
+  top: 0; /* Position it at the top of the viewport */
+  width: 100%; /* Make it full width */
+  z-index: 999; /* Ensure it appears above other elements */
+  transition: background 0.3s; /* Add a smooth background color transition */
+  margin-right: 3rem;
+}
+  
+.navbar-logo img {
+  width: 80px; /* Set the width as needed */
+  height: 80px; /* Automatically adjust the height to maintain aspect ratio */
+  /* You can also set a specific height if required */
+  max-height: 80px; /* Set a maximum height to ensure it doesn't get too large */
+  display: block;
+  padding-left: 0.5rem; /* Remove any extra spacing around the image */
+  /* Add any other styles you need */
+}
+  
+  .navbar-menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin-right: 5%;
+  }
+  
+  .navbar-item {
+    font-weight: 600;
+    font-size: 0.1rem;
+    
+  }
+  
+  .navbar-item a {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.3s; /* Add a smooth color transition */
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .navbar-item a:hover {
+    color: #8000ff; /* Change to your preferred color */
+    text-decoration: none;
+  }
+  
